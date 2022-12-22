@@ -5,5 +5,6 @@ public class TernaryMaxNumberPrinter {
         int result = first > second ?
                         (first > third ? first: third)
                         :(second > third ? second : third);
+        System.out.println(result);
     }
 }
